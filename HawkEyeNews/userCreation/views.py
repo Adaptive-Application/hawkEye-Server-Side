@@ -15,7 +15,6 @@ class UserCreate(APIView):
         if serializer.is_valid():
             user = serializer.save()
             if user:
-
                 # token = Token.objects.create(user=user)
                 json = serializer.data
                 # json['token'] = token.key

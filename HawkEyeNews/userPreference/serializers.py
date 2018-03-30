@@ -1,31 +1,60 @@
 from rest_framework import serializers
 from rest_framework.validators import UniqueValidator
-from . import models
-from django.contrib.auth.models import User
+from .models import userPreference, userSubPreference
 
 
-class UserSerializer(serializers.ModelSerializer):
+class PreferenceSerializer(serializers.ModelSerializer):
     class Meta:
-        model = models.userPreference
-        fields = ('id', 'username', 'first_name', 'last_name', 'email', 'password')
-
-    email = serializers.EmailField(
-            required=True,
-            validators=[UniqueValidator(queryset=User.objects.all())]
-            )
-    username = serializers.CharField(max_length=30,
-            validators=[UniqueValidator(queryset=User.objects.all())]
-            )
-    password = serializers.CharField(min_length=8, write_only=True)
-
-    first_name= serializers.CharField(max_length=15)
-
-    last_name = serializers.CharField(max_length=15)
+        model = userPreference
+        fields = ('userId', 'preferenceCode', 'preferenceScore')
 
     def create(self, validated_data):
-        user = User.objects.create_user(validated_data['username'], validated_data['email'],
-             validated_data['password'])
-        user.first_name = validated_data['first_name']
-        user.last_name = validated_data['last_name']
-        return user
+        username = validated_data.pop('username')
+        data = validated_data.pop('data')
+        preference = []
+        for p in data['userpref']:
+            pref = userPreference.objects.create(userId=username, preferenceCode=p['category']['code'],
+                                                 preferenceScore=p['category']['score'])
+            preference.append(pref)
+        return preference
 
+    def update(self, instance, validated_data):
+        username = validated_data.pop('username')
+        data = validated_data.pop('data')
+        updatecount = []
+        for p in data['userpref']:
+            pref = instance.objects.filter(userId=username, preferenceCode=p['category']['code']). \
+                update(preferenceScore=p['category']['score'])
+            updatecount.append(pref)
+        return updatecount
+
+
+class SubPreferenceSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = userSubPreference
+        fields = ('userpreference_FK', 'subpreferenceCode', 'subpreferenceScore')
+
+    def create(self, validated_data):
+        username = validated_data.pop('username')
+        data = validated_data.pop('data')
+        preference = []
+        for p in data['usersubpref']:
+            inst = userPreference.objects.get(userId=username, preferenceCode=p['parent'])
+            for sp in p['subcategory']:
+                print(sp)
+                pref = userSubPreference.objects.create(userpreference_FK=inst, subpreferenceCode=sp['code'],
+                                                        subpreferenceScore=sp['score'])
+                preference.append(pref)
+        return preference
+
+    def update(self, instance, validated_data):
+        username = validated_data.pop('username')
+        data = validated_data.pop('data')
+        updatecount = []
+        for p in data['usersubpref']:
+            inst = userPreference.objects.get(userId=username, preferenceCode=p['parent'])
+            for sp in p['subcategory']:
+                pref = instance.objects.filter(userpreference_FK=inst, subpreferenceCode=sp['code']). \
+                    update(subpreferenceScore=sp['score'])
+                updatecount.append(pref)
+        return updatecount

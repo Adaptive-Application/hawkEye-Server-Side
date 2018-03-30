@@ -22,6 +22,7 @@ urlpatterns = [
     path('signup/', include('userCreation.urls')),
     path('signin/', include('userAuth.urls')),
     path('logout/', include('logout.urls')),
+    path('preference/', include('userPreference.urls')),
     # path('/', include('rest_auth.urls')),
     # path('registration/', include('rest_auth.registration.urls')),
     # path('refresh-token/', refresh_jwt_token),
