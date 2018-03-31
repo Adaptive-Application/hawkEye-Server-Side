@@ -1,0 +1,244 @@
+{
+	"usersubpref":[
+	{
+		"parent": "001",
+		"subcategory":
+		[
+			{
+				
+				"name": "football",
+				"score": 0,
+				"code": "001"
+			},
+			{
+				"name": "rugby_union",
+				"score": 0,
+				"code": "002"
+			},
+			{
+				"name": "tennis",
+				"score": 0,
+				"code": "003"
+			},
+			{
+				"name": "cycling",
+				"score": 0,
+				"code": "004"
+			},
+			{
+				"name": "cricket",
+				"score": 0
+			},{
+				"name": "f1",
+				"score": 0,
+				"code": "005"
+			},
+			{
+				"name": "golf",
+				"score": 0,
+				"code": "006"
+			},
+			{
+				"name": "ussports",
+				"score": 0,
+				"code": "007"
+			}
+		]
+	},
+	{
+		"parent": "002",
+		"subcategory":
+		[
+			{
+				"name": "it",
+				"score": 0,
+				"code": "001"
+			},
+			{
+				"name": "phones",
+				"score": 0,
+				"code": "002"
+			},
+			{
+				"name": "robots",
+				"score": 0,
+				"code": "003"
+			},
+			{
+				"name": "ai",
+				"score": 0,
+				"code": "004"
+			},
+			{
+				"name": "cars",
+				"score": 0,
+				"code": "005"
+			},{
+				"name": "degital",
+				"score": 0,
+				"code": "006"
+			}
+		]
+	},
+	{
+		"parent": "003",
+		"subcategory":
+		[
+			{
+				"name": "energy",
+				"score": 0,
+				"code": "001"
+			},
+			{
+				"name": "environment",
+				"score": 0,
+				"code": "002"
+			},
+			{
+				"name": "space",
+				"score": 0,
+				"code": "003"
+			},
+			{
+				"name": "psychology",
+				"score": 0,
+				"code": "004"
+			},
+			{
+				"name": "natural_science",
+				"score": 0,
+				"code": "005"
+			},{
+				"name": "humanities",
+				"score": 0,
+				"code": "006"
+			},
+			{
+				"name": "earth",
+				"score": 0,
+				"code": "007"
+			}
+		]
+	},
+	{
+		"parent": "004",
+		"subcategory":
+		[
+			{
+				"name": "books",
+				"score": 0,
+				"code": "001"
+			},
+			{
+				"name": "music",
+				"score": 0,
+				"code": "002"
+			},
+			{
+				"name": "tv_&_radio",
+				"score": 0,
+				"code": "003"
+			},
+			{
+				"name": "art_&design",
+				"score": 0,
+				"code": "004"
+			},
+			{
+				"name": "film",
+				"score": 0,
+				"code": "005"
+			},{
+				"name": "game",
+				"score": 0,
+				"code": "006"
+			},
+			{
+				"name": "stage",
+				"score": 0,
+				"code": "007"
+			}
+		]
+	},
+	{
+		"parent": "005",
+		"subcategory":
+		[
+			{
+				"name": "fashion",
+				"score": 0,
+				"code": "001"
+			},
+			{
+				"name": "recipe",
+				"score": 0,
+				"code": "002"
+			},
+			{
+				"name": "food",
+				"score": 0,
+				"code": "003"
+			},
+			{
+				"name": "health_&_fitness",
+				"score": 0,
+				"code": "004"
+			},
+			{
+				"name": "home_&_garden",
+				"score": 0,
+				"code": "005"
+			},{
+				"name": "love_&_sex",
+				"score": 0,
+				"code": "006"
+			},
+			{
+				"name": "family",
+				"score": 0,
+				"code": "007"
+			},
+			{
+				"name": "money",
+				"score": 0,
+				"code": "008"
+			}
+		]
+	},
+	{
+		"parent": "006",
+		"subcategory":
+		[
+			{
+				"name": "trade",
+				"score": 0,
+				"code": "001"
+			},
+			{
+				"name": "market",
+				"score": 0,
+				"code": "002"
+			},
+			{
+				"name": "company",
+				"score": 0,
+				"code": "003"
+			},
+			{
+				"name": "economy",
+				"score": 0,
+				"code": "004"
+			},
+			{
+				"name": "stock",
+				"score": 0,
+				"code": "005"
+			},{
+				"name": "bank",
+				"score": 0,
+				"code": "006"
+			}
+		]
+	}
+]
+}

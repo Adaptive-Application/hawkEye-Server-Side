@@ -1,0 +1,54 @@
+{ 
+	"userpref":[
+	{
+		"category": 
+			{
+				"name": "sports",
+				"code": "001",
+				"score": 10
+
+			}
+	},
+
+	{
+		"category": 
+			{
+				"name": "technology",
+				"code": "002",
+				"score": 3
+			}
+	},
+	{
+		"category": 
+			{
+				"name": "science",
+				"code": "003",
+				"score": 9
+			}
+	},
+	{
+		"category": 
+			{
+				"name": "entertainment",
+				"code": "004",
+				"score": 11
+			}
+	},
+	{
+		"category": 
+			{
+				"name": "life_style",
+				"code": "005",
+				"score": 0
+			}
+	},
+	{
+		"category": 
+			{
+				"name": "business",
+				"code": "006",
+				"score": 0
+			}
+	}
+]
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "newsTag": "sports",
+        "newsTagCode": "001",
+        "newsUrl": "http://omgili.com/ri/.wHSUbtEfZT8e_qqbY8ZsjrPXiVXM.eSw6llmym6LoWvBfJkrz5cOGk0QcriWnyqx4xhmkPF26beD4R_z3bnmciHqMiNwXuo1MygN_1EVNvOPS4Y7i6GQyBM6SkWHl7VokVDxLOYT1cAtFFY9MJ_fXU_hCAenf766k11TkEiStCKqkrwL63YUEczngE.ah5p79ydv4.gtlk-"
+    },
+    {
+        "id": 2,
+        "newsTag": "business",
+        "newsTagCode": "006",
+        "newsUrl": "http://omgili.com/ri/.wHSUbtEfZRYAL0cN0EkN2Y.3ZOZVLqFutE6dzwrUM.xFroaHz5trbdIKG7z_o1TfIp7wtM_aoS6AizOS28k3VleNDkvkCQBmL75a9RJq2o-"
+    },
+    {
+        "id": 3,
+        "newsTag": "life style",
+        "newsTagCode": "005",
+        "newsUrl": "http://omgili.com/ri/.wHSUbtEfZSfiF_XycCS.x3OvoWGLNPuD5rnKezuYhRApEUxdibCsTNgMS1bm81eJ6gpTw9I3hHPCrt6wi86L6F.u7QySJQ.XqfgNYvhRG.qaM_rFdf27vqVpA48waro5TgSYYmM_lOM4wrODYIIaBpk7m.2giJiz7lHqPQw5ik-"
+    },
+    {
+        "id": 4,
+        "newsTag": "Science",
+        "newsTagCode": "003",
+        "newsUrl": "http://omgili.com/ri/.wHSUbtEfZRJB6RaVwI0BLR3L4_HDt_Um70axXaPgpyL1gZaIS3mCnqTqpRhQ4RP4gBSjyHgXwDxaMKoX.tNg4fltfbfOFhdzz2d3D2o_rrYsNknjtJQYw--"
+    },
+    {
+        "id": 5,
+        "newsTag": "sports",
+        "newsTagCode": "001",
+        "newsUrl": "http://omgili.com/ri/.wHSUbtEfZSES8l5nT3yv70sq5J2.6sUQKYzhZxyhudbaBWSRpYfXUN1WWOle.eOC2Mi11rRp0sAn7A4rJ3xPeIs0QoBiv1AhDaUKBnGk.gn5PLTF8lYMA--"
+    },
+    {
+        "id": 6,
+        "newsTag": "technology",
+        "newsTagCode": "002",
+        "newsUrl": "http://omgili.com/ri/jHIAmI4hxg9mF5HXnAwAm88Fk1nFYD6_id8WbUQtrqqsYpqLFmPRiLj3MMhj5vw3"
+    },
+    {
+        "id": 7,
+        "newsTag": "Science",
+        "newsTagCode": "003",
+        "newsUrl": "http://omgili.com/ri/vkc1Z8ITDMttcNUbnoenuUp3uGY_21TDCfdRrfAQYx7O2BlvDFn8zu6yY90BLzf_Sc3Q9XMiPZrk2V7Em2NplWERmxJmD9m."
+    },
+    {
+        "id": 8,
+        "newsTag": "sports",
+        "newsTagCode": "001",
+        "newsUrl": "http://omgili.com/ri/.wHSUbtEfZSLuLOuUcyEGu5wdSjA3DoyG33g7VHgjGoPanX4MVKUblYtdIazg542BBO9PNxdVuSv6zMmsCOtEFQzmxR83jkdXINaM2SaBp4veHQPHJBUNQ--"
+    },
+    {
+        "id": 9,
+        "newsTag": "Science",
+        "newsTagCode": "003",
+        "newsUrl": "http://omgili.com/ri/vkc1Z8ITDMttcNUbnoenuUp3uGY_21TDlH1qht359EYptLJU1jytlG_w3h30kty9QZkOP1TdyEc5ZBcCm46YW7IrUcZvL0.Nn6kHC_0XklyBOxQERBrl2rBiNVdz4_2InAdalDZDs1Y-"
+    },
+    {
+        "id": 10,
+        "newsTag": "sports",
+        "newsTagCode": "001",
+        "newsUrl": "http://omgili.com/ri/j.JM_ertN3KiTuFgTWY4yVxkD5Lb_K8ALJFoPTxkapDdSpfb2RH.3OpG4OkMpPxWwU.VULVChVKaiGw8KkdXO6HuZU0S24JN6oHntsp7lO_IvjjAU2s58AotpUOxwR4qEK82JoEcQmU7UToDBH4C.vmCjl61LBRcgzBCLTWLX3Y-"
+    }
+]
