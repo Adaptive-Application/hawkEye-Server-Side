@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'userCreation',
     'userAuth',
     'userPreference',
+    'trendingNewsModel',
     'rest_framework',
     'rest_auth',
     'rest_framework.authtoken',

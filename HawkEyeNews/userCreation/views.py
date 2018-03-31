@@ -5,6 +5,7 @@ from rest_framework import status
 from .serializers import UserSerializer
 from django.contrib.auth.models import User
 
+
 class UserCreate(APIView):
     """
     Creates the user.
